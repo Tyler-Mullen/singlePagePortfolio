@@ -8,11 +8,48 @@ a:hover{
     border-width: 2px;
 }
 
+body {
+    background-color: black;
+}
+
 .navBarItem{
     color: white;
     float: right;
     padding-right: 20px;
     font-size: 18px;
+}
+
+.paragraphText {
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.portfolioImage {
+    width: 300px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.portfolioItem {
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+    width: 1400px;
+}
+
+.portfolioItemInfo {
+    float: right;
 }
 
 .profileText {
@@ -41,6 +78,9 @@ a:hover{
     padding: 15px;
     font-weight: bold;
     font-size: 24px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: silver;
 }
 
 #header{
@@ -56,6 +96,10 @@ a:hover{
     font-family: impact;
     padding-left: 50px;
     padding-top: 25px;
+}
+
+#portfolioContent {
+    background-color: black;
 }
 
 #profileImage {
